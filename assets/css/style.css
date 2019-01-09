@@ -1,25 +1,71 @@
 .header {
     background-color: #4aaaa5;
-    padding: 20px;
+    padding: 21px;
     width: 200px;
-    margin: 30px;
+    margin: 0;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-size: 18pt;
     font-weight: bold;
+    float: left;    
+}
+
+header{
+    background-color: white;
+    border-bottom: 2px solid rgb(5, 155, 175);
+}
+
+.hcontainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url("../images/morocco.png");
+}
+
+.clearfix:after {
+    content: ".";
+    visibililty: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+section {
+    background: white;
+    width: 960px;
+    margin: 30px auto;
+    padding: 20px;
+    box-sizing: border-box;         
 }
 
 .subhead {
     color: #4aaaa5;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 30px;
-    font-size: 18pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 0 0;
+    font-size: 15pt;
+    padding: 10px;
+}
+
+hr {
+    color: #cabebe;
+    margin: 10px 10px;
+}
+
+.picture {
+    float: left;
+    padding: 10px;
+    width: 100px;
+    height: 100px;    
 }
 
 .topnav {
     overflow: hidden;
     background-color: white;
+    padding: 13px;
 }
 
 .topnav a {
@@ -43,10 +89,12 @@ p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 10pt;
-    margin: 30px;
+    margin: 20px;
+    line-height: 1.5;       
 } 
 
 .copyright {
+    position: absolute;
     color: #777777;
     font-size: 7pt;
     text-align: center;
